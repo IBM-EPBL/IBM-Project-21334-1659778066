@@ -1,0 +1,152 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Chronic kidney disease</title>
+<style>
+body {
+background: linear-gradient(
+                     rgba(20,20,20, .75), 
+                     rgba(20,20,20, .75)),
+                     url( "https://ochsner-craft.s3.amazonaws.com/blog/articles/_564x330_crop_center_80_none/Living-Kidney-Donor.jpg");
+.container {
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 20em;
+height:21em;
+background-color:white;
+background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+.hello{
+opacity: 0.5;
+}
+</style>
+</head>
+
+<body>
+
+<center><p style="font-size:60px;color:rgb(255, 255, 255);"><b><marquee bgcolor="lightblue">Chronic Kidney Disease Prediction</marquee></b></p></center>
+<form action="/val" method="post"><center>
+  <label for="age" style="font-size: 28px;color:rgb(231, 228, 250);"><b>Age</b></label><br>
+  <input type="number"  id="age" name="age" size="2"required><br><br><br>
+
+
+  <label for="bp" style="font-size: 28px;color:rgb(255, 255, 255);"><b>Blood Pressure</b></label><br>
+  <input type="number" id="bp" name="bp" required>
+<br>
+<br>
+<br>
+  <label for="sg" style="font-size: 28px;color:rgb(255, 255, 255);"><b>Urinary Specific Gravity</b></label><br>
+  <input type="number" id="sg" name="sg" required>
+<br>
+<br>
+<br>
+  <label for="al" style="font-size: 28px;color:rgb(255, 255, 255);"><b>al</b></label><br>
+  <input type="number" id="al" name="al" required>
+<br>
+<br>
+<br>
+  <label for="su" style="font-size: 28px;color:rgb(255, 255, 255);"><b>su</b></label><br>
+  <input type="number" id="su" name="su" required>
+<br>
+<br>
+<br>
+  <label for="rbc" style="font-size: 28px;color:rgb(255, 255, 255);"><b>rbc</b></label><br>
+  <input type="text" id="rbc" name="rbc" required>
+<br>
+<br>
+<br>
+  <label for="pc" style="font-size: 28px;color:rgb(255, 255, 255);"><b>pc</b></label><br>
+  <input type="text" id="pc" name="pc" required>
+<br>
+<br>
+<br>
+  <label for="pcc" style="font-size: 28px;color:rgb(255, 255, 255);"><b>pcc</b></label><br>
+  <input type="text" id="pcc" name="pcc" required>
+<br>
+<br>
+<br>
+  <label for="ba" style="font-size: 28px;color:rgb(255, 255, 255);"><b>ba</b></label><br>
+  <input type="text" id="ba" name="ba" required>
+<br>
+<br>
+<br>
+  <label for="bgr" style="font-size: 28px;color:rgb(255, 255, 255);"><b>bgr</b></label><br>
+  <input type="number" id="bgr" name="bgr" required>
+<br>
+<br>
+<br>
+  <label for="bu" style="font-size: 28px;color:rgb(255, 255, 255);"><b>bu</b></label><br>
+  <input type="number" id="bu" name="bu" required>
+<br>
+<br>
+<br>
+  <label for="sc" style="font-size: 28px;color:rgb(255, 255, 255);"><b>sc</b></label><br>
+  <input type="number" id="sc" name="sc" required>
+<br>
+<br><br>
+  <label for="sod" style="font-size: 28px;color:rgb(255, 255, 255);"><b>sod</b></label><br>
+  <input type="number" id="sod" name="sod" required>
+<br>
+<br>
+<br>
+  <label for="pot" style="font-size: 28px;color:rgb(255, 255, 255);"><b>pot</b></label><br>
+  <input type="number" id="pot" name="pot" required>
+<br>
+<br>
+<br>
+  <label for="hemo" style="font-size: 28px;color:rgb(255, 255, 255);"><b>hemo</b></label><br>
+  <input type="number" id="hemo" name="hemo" required>
+<br>
+<br>
+<br>
+  <label for="pcv" style="font-size: 28px;color:rgb(255, 255, 255);"><b>pcv</b></label><br>
+  <input type="text" id="pcv" name="pcv" required>
+<br>
+<br>
+<br>
+  <label for="wc" style="font-size: 28px;color:rgb(255, 255, 255);"><b>wc</b></label><br>
+  <input type="text" id="wc" name="wc" required>
+<br>
+<br>
+<br>
+  <label for="rc" style="font-size: 28px;color:rgb(255, 255, 255);"><b>rc</b></label><br>
+  <input type="text" id="rc" name="rc" required>
+<br>
+<br>
+<br>
+  <label for="htn" style="font-size: 28px;color:rgb(255, 255, 255);"><b>htn</b></label><br>
+  <input type="text" id="htn" name="htn" required>
+<br>
+<br>
+<br>
+  <label for="dm" style="font-size: 28px;color:rgb(255, 255, 255);"><b>dm</b></label><br>
+  <input type="text" id="dm" name="dm" required>
+<br>
+<br>
+<br>
+  <label for="cad" style="font-size: 28px;color:rgb(255, 255, 255);"><b>cad</b></label><br>
+  <input type="text" id="cad" name="cad" required>
+<br>
+<br>
+<br>
+  <label for="appet" style="font-size: 28px;color:rgb(255, 255, 255);"><b>appet</b></label><br>
+  <input type="text" id="appet" name="appet" required>
+<br>
+<br>
+<br>
+  <label for="pe" style="font-size: 28px;color:rgb(255, 255, 255);"><b>pe</b></label><br>
+  <input type="text" id="pe" name="pe" required>
+<br>
+<br>
+<br>
+  <label for="ane" style="font-size: 28px;color:rgb(255, 255, 255);"><b>ane</b></label><br>
+  <input type="text" id="ane" name="ane" required>
+<br>
+<br></center>
+  <center><button type="submit"><i>Test Yourself</i></button></center>
+</form>
+</body>
+</html>
